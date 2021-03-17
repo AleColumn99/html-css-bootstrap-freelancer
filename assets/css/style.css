@@ -1,3 +1,41 @@
+body {
+  color: #333333;;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mint-green {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.mint-green .divider-line {
+  background-color: white;
+}
+
+/* BUTTONS */
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: #1ABC9C;
+}
+
 /* LISTE INLINE */
 
 li {
@@ -13,7 +51,6 @@ li {
 
 header.container-fluid {
   min-height: 100px;
-  text-transform: uppercase;
   color: white;
   background-color: #2C3E50;
 }
@@ -24,48 +61,69 @@ header {
 
 /* MAIN */
 
-/* MAIN-HEADER */
-
-main .main-header.container-fluid {
-  min-height: 300px;
-  text-transform: uppercase;
-  color: white;
-  background-color: #1ABC9C;
-}
-
-main .main-header .row {
-  text-align: center;
-}
-
-main .main-header .row [class*="col-"] {
-  margin-bottom: 20px;
-}
-
-main .main-header .row img {
-  text-align: center;
-  margin-top: 50px;
-  height: 250px;
-}
-
-main .main-header .divider-line {
+main .divider-line {
   display: inline-block;
   height: 2px;
   width: 20%;
   margin: 0 10px;
-  background-color: white;
+  background-color: #333333;
 }
 
-/* MAIN-CONTENT */
+/* MAIN START */
 
-main .main-content.container-fluid {
+main .main-start.container-fluid {
   min-height: 300px;
-  text-transform: uppercase;
-  color: #333333;
-  background-color: white;
+  color: white;
 }
 
-main .main-content.container-fluid .portfolio-cards img {
+main .main-start .row [class*="col-"] {
+  margin-bottom: 20px;
+}
+
+main .main-start .row img {
+  margin-top: 50px;
+  height: 250px;
+}
+
+/* MAIN PORTFOLIO */
+
+main .main-portfolio.container-fluid {
+  min-height: 300px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+main .main-portfolio.container-fluid .portfolio-cards img {
   width: 100%;
   border-radius: 10px;
   padding: 1%;
+  margin-top: 30px;
+}
+
+/* MAIN ABOUT */
+
+main .main-about.container-fluid {
+  min-height: 300px;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+/* MAIN ABOUT */
+
+main .main-contact.container-fluid {
+  min-height: 300px;
+  padding-top: 30px;
+}
+
+/* FOOTER */
+
+footer.container-fluid {
+  min-height: 100px;
+  color: white;
+  background-color: #2C3E50;
+  margin-top: 50px;
+}
+
+footer {
+  line-height: 100px;
 }
